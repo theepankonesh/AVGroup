@@ -6,7 +6,7 @@ Website for AV Group's four services: **Grass Cutting, Power Washing, Window Cle
 
 ## Run locally
 
-Requires Node 20+.
+Requires Node 24.
 
 ```bash
 npm install

@@ -5,7 +5,7 @@
  *   npm run build && npm run preview   →  http://localhost:4173
  *
  * /api/quote reads RESEND_API_KEY, QUOTE_TO_EMAIL and QUOTE_FROM_EMAIL from .env if present.
- * (Running the TypeScript function locally needs Node 22.18+; on older Node it returns "not configured".)
+ * (Runs the TypeScript function directly, which needs Node 22.18+; the project targets Node 24.)
  */
 import http from 'node:http';
 import fs from 'node:fs';
