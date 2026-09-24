@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Brand fonts as Tailwind tokens: `font-sans` = Inter (body), `font-montserrat` = Montserrat (headings) */
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-montserrat: 'Montserrat', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+@layer base {
+  :root {
+    --primary-blue: #0A6FE0;
+    --accent-blue: #1E9BFF;
+    --silver-grey: #B8BDC4;
+    --dark-navy: #0B1A2E;
+    --bg-light: #F4F6F9;
+  }
+
+  body {
+    color: #0B1A2E;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-montserrat);
+  }
+
+  /* Visible keyboard focus everywhere */
+  :focus-visible {
+    outline: 2px solid #0A6FE0;
+    outline-offset: 2px;
+  }
+}
