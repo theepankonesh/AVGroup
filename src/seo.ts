@@ -34,6 +34,7 @@ function localBusiness() {
     telephone: BUSINESS.phoneSchema,
     email: BUSINESS.email,
     image: abs(OG_IMAGE),
+    logo: abs('/images/av-group-logo.png'),
     priceRange: '$$',
     address: {
       '@type': 'PostalAddress',
